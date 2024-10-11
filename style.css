@@ -1,0 +1,250 @@
+.text-primary {
+    color: aqua;
+}
+
+/* .nav-menu {
+    list-style: none;
+    background: #f3ece3
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin: 20px 36px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+} */
+
+/* .custom-navbar {
+    padding: 20px 0px;
+} */
+
+/* .logo-title a {
+    font-size: 22px;
+    font-weight: 700;
+} */
+
+.logo-title {
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+
+.toll-free span {
+    color: #d82b27;
+}
+
+.left-header {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.navbar-nav li {
+    padding: 0px 15px;
+    font-weight: 600;
+}
+
+#carousel-first {
+
+    .carousel-control-prev {
+        border: none !important;
+        width: 6% !important;
+    }
+
+    .carousel-control-next {
+        border: none !important;
+        width: 6% !important;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url(./assets/images/back.png) !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url(./assets/images/next.png) !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: transparent !important;
+    }
+
+    .carousel-control-prev .visually-hidden,
+    .carousel-control-next .visually-hidden {
+        display: none;
+    }
+}
+
+.scrolling-text {
+    border: 3px solid #d82b27;
+}
+
+.scrolling-text span {
+    margin-left: 48px;
+    font-weight: 600;
+}
+
+.double-arrow {
+    color: #d82b27;
+}
+
+.portal-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.portal-text {
+    color: #d82b27;
+    font-weight: 700;
+    font-size: larger;
+}
+
+#hide-carousel-button {
+    .carousel-control-prev {
+        border: none;
+        background: none;
+      
+
+    }
+
+    .carousel-control-next {
+        border: none;
+        background: none;
+      
+    }
+    
+    .carousel-control-prev-icon{
+        display: none;
+    }
+    .carousel-control-next-icon{
+        display: none;
+    }
+
+}
+
+.latest-news {
+    color:#d82b27 ;
+    text-align: center;
+
+}
+
+#Announcements {
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.scrolling-news ul {
+    list-style-type: none;
+    padding-left: 10px !important;
+    padding-right: 10px;
+    
+}
+
+.scrolling-news ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.scrolling-news ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0px;
+}
+
+.scrolling-news {
+    
+    height: 450px;
+    overflow-y: hidden;
+    position: absolute;
+    animation: scrollVertical 5s linear infinite; 
+}
+
+@keyframes scrollVertical {
+    0% {
+      top: 100%; /* Start off-screen */
+    }
+    20% {
+      top: 0; /* Scroll text into view */
+    }
+    80% {
+      top: 0; /* Pause for a moment */
+    }
+    100% {
+      top: -100%; /* Scroll text out of view */
+    }
+  }
+
+  .quick-form {
+    text-align: center;
+    border: 1px solid black;
+    padding: 23px;
+   
+  } 
+
+  .Quick-Bill {
+    color: #d82b27;
+  }
+
+  .consumer-from{
+   color: #999999;
+  }
+
+  .online-payment {
+    color: black;
+  }
+
+  input {
+    width: 250px;
+  }
+
+.my-button {
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color: purple;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8%;
+}
+
+.my-para-link {
+    color: black;
+    font-weight: 700;
+    border: 1px solid black;
+   
+}
+
+.Media-gallery {
+    color: #d82b27;
+    text-align: center;
+}
+
+#newest {
+    color: #d82b27;
+}
+
+
+
+
+
+
+
+
+
+
+
+
