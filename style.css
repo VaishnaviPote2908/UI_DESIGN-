@@ -116,99 +116,107 @@
     .carousel-control-prev {
         border: none;
         background: none;
-      
+
 
     }
 
     .carousel-control-next {
         border: none;
         background: none;
-      
+
     }
-    
-    .carousel-control-prev-icon{
+
+    .carousel-control-prev-icon {
         display: none;
     }
-    .carousel-control-next-icon{
+
+    .carousel-control-next-icon {
         display: none;
     }
 
 }
 
 .latest-news {
-    color:#d82b27 ;
+    color: #d82b27;
     text-align: center;
-
 }
 
 #Announcements {
     border: 1px solid #ddd;
     position: relative;
+    padding: 10px;
+}
+
+.scrolling-news {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
 }
 
 .scrolling-news ul {
     list-style-type: none;
-    padding-left: 10px !important;
-    padding-right: 10px;
-    
-}
-
-.scrolling-news ul a {
-    text-decoration: none;
-    color: black;
-    font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
 
 .scrolling-news ul li {
     border-bottom: 1px solid #ddd;
-    padding: 15px 0px;
+    padding: 15px 0;
 }
 
-.scrolling-news {
-    
-    height: 450px;
-    overflow-y: hidden;
-    position: absolute;
-    animation: scrollVertical 5s linear infinite; 
+.scrolling-news ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.scrolling-news ul li a:hover {
+    color: #23527C;
+}
+
+.scrolling-news ul li small {
+    display: block;
+    color: #888;
+    font-size: 0.9em;
 }
 
 @keyframes scrollVertical {
     0% {
-      top: 100%; /* Start off-screen */
+        top: 0;
     }
-    20% {
-      top: 0; /* Scroll text into view */
-    }
-    80% {
-      top: 0; /* Pause for a moment */
-    }
-    100% {
-      top: -100%; /* Scroll text out of view */
-    }
-  }
 
-  .quick-form {
+    100% {
+        top: -100%;
+    }
+}
+
+.scrolling-news ul {
+    position: relative;
+    animation: scrollVertical 20s linear infinite;
+}
+
+.quick-form {
     text-align: center;
     border: 1px solid black;
     padding: 23px;
-   
-  } 
 
-  .Quick-Bill {
+}
+
+.Quick-Bill {
     color: #d82b27;
-  }
+}
 
-  .consumer-from{
-   color: #999999;
-  }
+.consumer-from {
+    color: #999999;
+}
 
-  .online-payment {
+.online-payment {
     color: black;
-  }
+}
 
-  input {
+input {
     width: 250px;
-  }
+}
 
 .my-button {
     padding: 15px 10px;
@@ -225,7 +233,7 @@
     color: black;
     font-weight: 700;
     border: 1px solid black;
-   
+
 }
 
 .Media-gallery {
@@ -236,15 +244,3 @@
 #newest {
     color: #d82b27;
 }
-
-
-
-
-
-
-
-
-
-
-
-
