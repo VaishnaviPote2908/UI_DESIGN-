@@ -7,6 +7,7 @@
     <title>Maharashtra State Electricity Distribution Co. Ltd.</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="images/icon" href="./assets/images/fevicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -357,7 +358,7 @@
             </div>
             <div class="col-md-4">
                 <div id="Announcements">
-                        <h5 class="latest-news mt-2">News & Latest Announcements</h5>
+                    <h5 class="latest-news mt-2">News & Latest Announcements</h5>
                     <div class="scrolling-news">
                         <ul>
                             <li><a href="">Lottery for Allotment of DPDC works to the unemployed engineers under
@@ -408,20 +409,21 @@
 
 
             <div class="col-md-4">
-                <div class="quick-form">
+                <div class="quick-form mb-2">
                     <h5 class="Quick-Bill">Quick Bill Payment</h5>
                     <form action="" class="consumer-from">Consumer No.<br>
                         <input type="text"><br><br>
-                        I agree <a href="">
+                        <input type="checkbox" id="terms-checkbox">
+                        <span> I agree</span> <a href="">
                             <u class="online-payment">Conditions for online Payment</u>
                         </a>
                         <div>
-                            <input type="text" class="my-button" value="Pay Now">
+                            <button type="button" class="btn btn-danger btn-pay-now ">Pay Now</button>
                         </div>
                     </form>
-                </div><br>
+                </div>
 
-                <div class="my-paragraph">
+                <!-- <div class="my-paragraph">
                     <div>
                         <span id="newest">New</span>
                         <a href="" class="my-para-link">Magel tyala Krushi Pump Yojna</a>
@@ -443,24 +445,54 @@
 
                 <h5 class="Media-gallery">Media and Photo Gallery</h5>
             </div>
+ -->
 
-
-
-            <div class="col-md-4">
-                <img src="./assets/images/google.png" alt="">
-                <img src="./assets/images/app-store.png" alt="">
+                <div class="maha-application-links">
+                    <ul>
+                        <li><span class="new-link">New</span><a href="">Magel Tyala Saur Krushi Pump Yojana</a></li>
+                        <li><a href="">Apply for Solar Rooftop</a></li>
+                        <li><span class="new-link">New</span><a href="">Mahavitaran ABHAY YOJNA 2024</a></li>
+                        <li><a href="">Mukhyamantri Saur Krushi Vahini Yojana – 2.0</a></li>
+                        <li><a href="">Check New Connection status/Make Payment</a></li>
+                    </ul>
+                </div>
             </div>
+        </div>
 
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo-buttons">
+                    <img src="./assets/images/google.png" alt="">
+                    <img src="./assets/images/app-store.png" alt="">
+                </div>
+
+                <div class="mt-2">
+                    <button type="button" class="btn btn-danger my-2"> Contact Us </button>
+                    <button type="button" class="btn btn-danger my-2"> Important Links </button>
+                    <button type="button" class="btn btn-danger my-2"> Media/ Press </button>
+                    <button type="button" class="btn btn-danger my-2"> Career </button>
+                </div>
+
+
+            </div>
+            <div class="col-md-4 text-end">
+                <button type="button" class="btn btn-danger my-2"><i class='far fa-hand-point-right'></i> More </button>
+            </div>
             <div class="col-md-4">
 
-               
             </div>
+        </div>
 
-            <div class="col-md-4">
-                
-            </div>
-                
-           
+
+
+
+
+
+
+
+
+
 
 
 
