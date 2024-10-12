@@ -240,24 +240,25 @@
     color: #d82b27;
 }
 
-.btn-pay-now  {
+.btn-pay-now {
     padding: 8px 65px !important;
 }
 
-.maha-application-links ul{
+.maha-application-links ul {
     list-style-type: none;
     padding-left: 0px !important;
-   
+
 }
+
 .maha-application-links li {
     text-align: center;
     border: 1px solid black;
     margin-bottom: 10px;
     background: linear-gradient(to bottom, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 50%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
     border-radius: 2px;
-} 
+}
 
-.maha-application-links a{
+.maha-application-links a {
     text-decoration: none;
     color: black;
     font-size: 12px;
@@ -276,33 +277,22 @@
     font-weight: 600;
 }
 
-/* .my-button {
-        padding: 15px 10px;
-        text-align: center;
-        color: #fff;
-        border: none;
-        font-weight: 700;
-        font-size: 18px;
-        border-radius: 8%;
-        background-color: white;
-   
-} */
-/* .btn-danger a{
-    color: white;
+.text-muted {
+    color: #9c9fa9;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.disclaimer a {
     text-decoration: none;
-} */
+    color: white;
+}
 
-/* 
-.other-links {
-    width: 25px;
-} */
-
-
-
-
-
-
-
-
-
-
+.chatbot {
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    right: 0;
+}
